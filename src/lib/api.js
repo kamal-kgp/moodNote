@@ -1,5 +1,5 @@
 const WEATHER_API_KEY = process.env.NEXT_PUBLIC_WEATHERAPI_KEY;
-const WEATHER_API_URL = 'http://api.weatherapi.com/v1/current.json';
+const WEATHER_API_URL = 'https://api.weatherapi.com/v1/current.json';
 
 export const fetchWeather = async (lat, lon) => {
   if (!WEATHER_API_KEY) {
